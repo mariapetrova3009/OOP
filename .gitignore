@@ -1,0 +1,17 @@
+# build
+bin/
+obj/
+
+# VS / Rider
+.vs/
+*.suo
+*.user
+
+# NuGet
+project.nuget.cache
+*.nupkg
+packages/
+
+# OS junk
+.DS_Store
+Thumbs.db

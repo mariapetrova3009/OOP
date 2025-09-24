@@ -16,7 +16,7 @@ class Program
             Console.WriteLine("3) Купить товар");
             Console.WriteLine("4) Забрать сдачу");
             Console.WriteLine("5) Показать внесённые монеты");
-            Console.WriteLine("9) Админ-режим");
+            Console.WriteLine("6) Админ-режим");
             Console.WriteLine("0) Выход");
             Console.Write("Выбор: ");
 
@@ -64,7 +64,7 @@ class Program
             {
                 machine.ShowCoinBank();
             }
-            else if (command == "9")
+            else if (command == "6")
             {
                 machine.AdminMenu();
             }
